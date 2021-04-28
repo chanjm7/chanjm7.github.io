@@ -1,18 +1,11 @@
 ---
-title:  "github.io 블로그 시작하기"
-excerpt: /assets/images/coco.jpg
-categorie:
-  - Blog
+title: "첫 블로그"
+
+header:
+  image: /assets/images/posts/hem-poudyal-m7ZiszOdxQk-unsplash.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 tags:
   - Blog
-last_modified_at: 2019-04-13T08:06:00-05:00
 ---
-GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
-GitHub Blog 서비스의 이름은 Pages이다.
-
-Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다.
-다른 사람들도 같이 많이 사용했으면 좋겠다는 생각이 든다.
-
-YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
-이 글의 제목은 {{ page.title }}이고
-마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
+# 블로그 첫 포스트 
+블로그에 시작을 알리는 첫 포스트입니다. 음... 전에 블로그를 하긴 했지만 TIL만 올리는 블로그였고 관리도 제대로 하지 않았습니다. 그래서인지 제가 저의 블로그를 봐도 보기가 싫을정도로 더러웠습니다. 새로운 마음가짐으로 시작하기 위해 블로그를 삭제하고 다시 시작 하는 중 입니다. 앞으로는 깔끔하고 필요한 것만 올려서 다른 사람도 보기 편하고 저도 보기 편한 블로그를 만들어 나갈 생각입니다.
