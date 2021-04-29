@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "about"
 permalink: /about/
 header:
   image: /assets/images/pages/about/windows-WJPHTJEtgzw-unsplash.jpg 
