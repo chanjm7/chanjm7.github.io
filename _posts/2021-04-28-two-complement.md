@@ -1,6 +1,8 @@
 ---
 title: "2의 보수(Two's complement)"
 layout: single
+toc: true
+toc_sticky: true
 header: 
   teaser: /assets/images/posts/binary.jpg
 tags:
