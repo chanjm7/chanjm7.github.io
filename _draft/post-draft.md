@@ -1,11 +1,10 @@
 ---
-layout: single
 title: ""
-
+toc: true
+toc_sticky: true
+layout: single
 header:
   teaser:
-  image: /assets/images/posts/
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 tags:
   - 
 ---
