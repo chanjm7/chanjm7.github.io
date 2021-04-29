@@ -4,12 +4,12 @@ toc: true
 toc_sticky: true
 layout: single
 header:
-  teaser: /assets/images/posts/floating-point.jpg
+  teaser: /assets/images/posts/binary/floating-point.jpg
 tags:
   - binary
 ---
 <p align="center">
-<img src="{{ "/assets/images/posts/floating-point.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/floating-point.jpg" | absolute_url }}">
 </p>
 
 위의 사진과 같이 컴퓨터가 실수를 저장하는 방법입니다(32비트기준). 그럼 저 부동 소수점에 대해서 더 자세히 알아보겠습니다. 
@@ -41,7 +41,7 @@ tags:
 ## 정규화된 과학적 표기법으로 바꾸는 방법
 
 <p align="center">
-<img src="{{ "/assets/images/posts/nomalize-scientific-notation.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/nomalize-scientific-notation.jpg" | absolute_url }}">
 </p>
 
 이와 같이 m에는 유효숫자들로만 이루어져 있습니다. m을 가수라고 하고 n을 지수라고 부릅니다.
@@ -59,7 +59,7 @@ tags:
 # 부동소수점 비트
 
 <p align="center">
-<img src="{{ "/assets/images/posts/floating-point.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/floating-point.jpg" | absolute_url }}">
 </p>
 
 컴퓨터에서 부동소수점을 비트에 저장하려면 부호비트(Sign 1 Bit), 지수비트(Exponent 8 Bit), 가수비트(Mantissa 23 Bit)가 있어야 합니다.
@@ -71,7 +71,7 @@ tags:
 1010.10101과 -1010.10101 각각의 비트에 어떻게 저장되는지 알아보겠습니다. 
 
 <p align="center">
-<img src="{{ "/assets/images/posts/nomalize-scientific-notation-exam.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/nomalize-scientific-notation-exam.jpg" | absolute_url }}">
 </p>
 
 두 수가 부호비트만 다르고 나머지는 같은걸 볼 수 있습니다. 
@@ -84,19 +84,19 @@ tags:
 ## 부동소수점 비트 10진수로 변환
 
 <p align="center">
-<img src="{{ "/assets/images/posts/IEEE754.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/IEEE754.jpg" | absolute_url }}">
 </p>
 
 위의 부동소수점 비트를 10진수를 변환하는 공식이 있습니다. 
 
 <p align="center">
-<img src="{{ "/assets/images/posts/formula.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/formula.jpg" | absolute_url }}">
 </p>
 
 공식을 적용하면은 
 
 <p align="center">
-<img src="{{ "/assets/images/posts/floating-point-exam.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/floating-point-exam.jpg" | absolute_url }}">
 </p>
 
 즉, 저 위의 부동소수점 비트는 102.125의 값을 저장하고 있는 겁니다.
@@ -110,14 +110,14 @@ tags:
 만약 지수비트가 0일때는 
  
 <p align="center">
-<img src="{{ "/assets/images/posts/formula.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/formula.jpg" | absolute_url }}">
 </p>
 
 
 이 공식으로는 0.0이 절때 안나옵니다. 그래서 이때는 다른공식을 쓰는데 그 공식이 아래의 사진입니다.
 
 <p align="center">
-<img src="{{ "/assets/images/posts/floating-point02.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/floating-point02.jpg" | absolute_url }}">
 </p>
 
 위의 공식은 0에 더 가까운 수를 표현하기 위한 공식 입니다.
@@ -137,7 +137,7 @@ tags:
 지수비트와 가수비트에 따른 계산식을 정리하면 아래의 표가 나옵니다.
 
 <p align="center">
-<img src="{{ "/assets/images/posts/floating-point03.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/floating-point03.jpg" | absolute_url }}">
 </p>
 
 

@@ -4,11 +4,11 @@ layout: single
 toc: true
 toc_sticky: true
 header: 
-  teaser: /assets/images/posts/binary.jpg
+  teaser: /assets/images/posts/binary/binary.jpg
 tags:
   - binary 
 ---
-<img src="{{ "/assets/images/posts/binary.jpg" | absolute_url }}">
+<img src="{{ "/assets/images/posts/binary/binary.jpg" | absolute_url }}">
 
 # 컴퓨터에서 2의보수가 어디에 쓰일까?
 
@@ -29,12 +29,12 @@ tags:
 <span style="color:red">10 + 6 = 16 여기서 컴퓨터는 1의 자리 숫자인 6만 보고 10의 자리 숫자는 버립니다.</span> 
 
 
-<img src="{{ "/assets/images/posts/two-complement.jpg" | absolute_url }}" align="center">
+<img src="{{ "/assets/images/posts/binary/two-complement.jpg" | absolute_url }}" align="center">
 
 이렇게 숫자가 버려지는 과정을 <span style="color:red">오버플로</span>라고 합니다. 
 
 오버플로 과정을 더 자세히 보면은 아래와 같이 됩니다.
-<img src="{{ "/assets/images/posts/two-complement2.jpg" | absolute_url }}" align="center">
+<img src="{{ "/assets/images/posts/binary/two-complement2.jpg" | absolute_url }}" align="center">
 
 그래서 컴퓨터는 -4를 메모리에 저장할때 6으로 저장합니다. 지금까지는 10진수로 예를 들었고 실제 컴퓨터에서 사용되는 2진수는 어떻게 되는지 알아 보겠습니다. (10진수랑 별 다를게 없음)
 

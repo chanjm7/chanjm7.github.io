@@ -2,7 +2,7 @@
 title: "첫 블로그"
 
 header:
-  image: /assets/images/posts/hem-poudyal-m7ZiszOdxQk-unsplash.jpg
+  image: /assets/images/posts/blog/hem-poudyal-m7ZiszOdxQk-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 tags:
   - Blog
