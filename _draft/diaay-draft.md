@@ -9,3 +9,4 @@ tags:
   - diary 
 ---
 
+<img src="{{ "/assets/images/posts/diary/diary.jpg" | absolute_url }}">
